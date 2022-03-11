@@ -1,5 +1,5 @@
 
-#  SvelteKit site with using Airtable to capture contact form submissions
+#  SvelteKit site using Airtable to capture contact form submissions
 
 ## Specifics
 
