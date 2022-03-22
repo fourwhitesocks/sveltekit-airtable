@@ -1,5 +1,6 @@
 <script>
 	import ContactForm from '$lib/contact-form.svelte';
+	import Button from '$lib/components/Button.svelte';
 </script>
 
 <h1>Welcome to SvelteKit</h1>
@@ -8,3 +9,14 @@
 </p>
 
 <ContactForm />
+
+<h2>Component Library</h2>
+<!-- since we put a slot in the button component it will add what ever goes in the button -->
+<Button>Click me!</Button>
+
+<style>
+	h1,
+	h2 {
+		font-size: var(--font-size-fluid-3);
+	}
+</style>
