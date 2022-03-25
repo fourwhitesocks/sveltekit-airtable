@@ -4,3 +4,4 @@
 ## Specifics
 
 1. Svelte, tailwinds, airtable
+2. Custom component and 
