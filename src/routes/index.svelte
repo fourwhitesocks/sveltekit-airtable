@@ -13,7 +13,7 @@
 
 <h2>Component Library</h2>
 <!-- since we put a slot in the button component it will add what ever goes in the button -->
-<Button>Click me!</Button>
+<Button --background-color="#6e97da">Click me!</Button>
 <Todos />
 <h3>Stopped at 37:57 mins in</h3>
 
