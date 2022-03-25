@@ -14,7 +14,10 @@
 <div class="box">
 	<Card --background-color="#dedede">
 		<h2 slot="title">How's this working?</h2>
-		<div slot="content">I'm working just fine, I'm the slot content this time</div>
+		<div slot="content">
+			I'm working just fine, I'm the slot content this time, but which is the parent and which is
+			the child??
+		</div>
 	</Card>
 </div>
 
