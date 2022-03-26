@@ -10,11 +10,11 @@
 
 <!-- below I added for learning -->
 <style>
-	:root {
+	/* :root {
 		--background-color: var(--blue-7);
-	}
+	} */
 
 	.container {
-		background-color: var(--background-color);
+		background-color: pink;
 	}
 </style>

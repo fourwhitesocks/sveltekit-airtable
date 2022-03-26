@@ -16,7 +16,6 @@
 	:root {
 		--background-color: var(--teal-9);
 	}
-
 	.default {
 		background-color: var(--background-color);
 	}

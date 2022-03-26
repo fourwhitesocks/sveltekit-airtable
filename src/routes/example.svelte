@@ -6,9 +6,8 @@
 <Button>I'm a new button</Button>
 
 <div class="box">
-	The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure
-	and cajol yar clients into walking the plank with ev'ry layout! Configure above, then get yer
-	pirate ipsum...own the high seas, arg!
+	Set your variable in the parent or prob main css then you use it in the child component and then
+	you can change it in whatever parent place you need it changed in... think that's right
 </div>
 
 <div class="box">

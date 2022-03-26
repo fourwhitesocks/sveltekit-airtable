@@ -13,9 +13,9 @@
 
 <h2>Component Library</h2>
 <!-- since we put a slot in the button component it will add what ever goes in the button -->
-<Button --background-color="#6e97da">Click me!</Button>
+<Button --background-color="#ef0000">You change this from where it's being imported to</Button>
 <Todos />
-<h3>Stopped at 37:57 mins in</h3>
+<h3>https://www.youtube.com/watch?v=kWOBUF_Ht4Y&ab_channel=WebJeda</h3>
 
 <style>
 	h1,
