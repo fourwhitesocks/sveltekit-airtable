@@ -4,17 +4,9 @@
 	<slot name="content" />
 </div>
 
-``
-
-
-
 <!-- below I added for learning -->
 <style>
-	/* :root {
-		--background-color: var(--blue-7);
-	} */
-
 	.container {
-		background-color: pink;
+		background-color: var(--background-color);
 	}
 </style>
