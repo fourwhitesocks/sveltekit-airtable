@@ -34,6 +34,17 @@
 			<span>Message</span>
 		</label>
 		<textarea name="message" aria-label="name" placeholder="Message" required rows="3" />
+		<label for="bestday">
+			<span>Best Day</span>
+		</label>
+		<input
+			type="text"
+			name="bestday"
+			aria-label="bestday"
+			placeholder="Enter your best day"
+			required
+		/>
+
 		<input type="submit" />
 	</form>
 {/if}

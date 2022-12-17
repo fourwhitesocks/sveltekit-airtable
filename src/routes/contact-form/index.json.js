@@ -6,6 +6,7 @@ export const post = async ({ request }) => {
   const name = fd.get('name')
   const email = fd.get('email')
   const message = fd.get('message')
+  const bestday = fd.get('bestday')
 
   const AIRTABLE_BASE_ID = import.meta.env.VITE_AIRTABLE_BASE_ID
   const AIRTABLE_TOKEN = import.meta.env.VITE_AIRTABLE_TOKEN
@@ -18,6 +19,7 @@ export const post = async ({ request }) => {
           name,
           email,
           message,
+          bestday,
         },
       },
     ],
