@@ -3,6 +3,7 @@
 	import Button from '$lib/components/Button.svelte';
 	import Todos from '$lib/components/Todos.svelte';
 	import Nav from '$lib/components/Nav.svelte';
+	('https://static.airtable.com/js/embed/embed_snippet_v1.js');
 </script>
 
 <Nav />
@@ -19,6 +20,18 @@
 <Button --background-color="blue">You change this from where it's being imported to</Button>
 <Todos />
 <h3>https://www.youtube.com/watch?v=kWOBUF_Ht4Y&ab_channel=WebJeda</h3>
+<br />
+<br />
+<p>Embeded Iframe version of the form yuck!</p>
+<iframe
+	class="airtable-embed airtable-dynamic-height"
+	src="https://airtable.com/embed/shrYCqbfVuEsYWZen?backgroundColor=blue"
+	frameborder="0"
+	onmousewheel=""
+	width="100%"
+	height="979.88889"
+	style="background: transparent; border: 1px solid #ccc;"
+/>
 
 <style>
 	h1,
